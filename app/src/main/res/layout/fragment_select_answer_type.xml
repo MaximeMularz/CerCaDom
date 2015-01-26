@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="lpa.aumont.cercadom.SelectAnswerTypeFragment">
+
+    <Button
+        android:onClick="duo"
+        android:text="@string/duo"
+        style="@style/selectPoint" />
+
+    <Button
+        android:onClick="square"
+        android:text="@string/square"
+        style="@style/selectPoint" />
+
+    <Button
+        android:onClick="gotIt"
+        android:text="@string/cash"
+        style="@style/selectPoint" />
+
+</LinearLayout>

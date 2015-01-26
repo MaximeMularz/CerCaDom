@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue_300"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context="lpa.aumont.cercadom.DisplayScoreFragment">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:textSize="16sp" />
+
+</LinearLayout>

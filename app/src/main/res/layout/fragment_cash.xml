@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center|center_horizontal"
+    tools:context="lpa.aumont.cercadom.GotItFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autoText="false" />
+
+    <Button
+        style="@style/cashButton"
+        android:text="@string/send"
+        android:id="@+id/buttonCash"
+         />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_carre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="lpa.aumont.cercadom.SquareFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Button1Carre"
+            style="@style/squareButton"
+            android:text=""
+
+            />
+
+        <Button
+            android:id="@+id/Button2Carre"
+            style="@style/squareButton"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Button3Carre"
+            style="@style/squareButton"
+            android:text="" />
+
+        <Button
+            android:id="@+id/Button4Carre"
+            style="@style/squareButton"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>

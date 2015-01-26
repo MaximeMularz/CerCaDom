@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="lpa.aumont.cercadom.ResultActivity"
+    tools:ignore="MergeRootFrame"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/purple_A200" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal"
+        android:isIndicator="true"
+        android:rating="4"
+        android:numStars="5" />
+
+</LinearLayout>
